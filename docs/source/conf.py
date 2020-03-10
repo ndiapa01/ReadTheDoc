@@ -57,3 +57,4 @@ html_static_path = ['_static']
 html_css_files = ['bootstrap.min.css']
 # html_css_files = ['alabaster1.css']
 # html_css_files = ['basics.css']
+master_doc = 'index'
