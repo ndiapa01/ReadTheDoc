@@ -28,7 +28,7 @@ Usefull Parameters
 
    
 * Lists
-   You can use several types of lists in your documents.
+You can use several types of lists in your documents.
    * This is a bulleted list.
    1. this is a numbered list.
    #. this is also a numbered list.
