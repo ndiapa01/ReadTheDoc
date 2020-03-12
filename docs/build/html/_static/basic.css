@@ -42,11 +42,9 @@ div.related li.right {
 }
 
 /* -- sidebar --------------------------------------------------------------- */
-@media only screen and (min-width: 768px)
-{    
-    div.sphinxsidebarwrapper {
-        position: fixed;
-        left: 1%;
+
+div.sphinxsidebarwrapper {
+    padding: 10px 5px 0 10px;
 }
 
 div.sphinxsidebar {
