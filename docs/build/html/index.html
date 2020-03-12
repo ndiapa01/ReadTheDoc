@@ -86,7 +86,7 @@
 <li><a class="reference internal" href="#">Using Sphinx</a><ul>
 <li><a class="reference internal" href="#presentation">Presentation</a></li>
 <li><a class="reference internal" href="#usefull-parameters">Usefull Parameters</a></li>
-<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
 <li><a class="reference internal" href="#continuous-documentation">Continuous_Documentation</a></li>
 <li><a class="reference internal" href="#revisions-management">Revisions_Management</a></li>
 </ul>
@@ -190,14 +190,38 @@ and you’ll find in this page command line that I used to make it looks like th
 </dd>
 </dl>
 </div>
-<div class="section" id="requirements">
-<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>As We are using python as default langage for Read The doc, there are some requirements and dependencies to instal using pip.</p>
+<ol class="arabic simple">
+<li><p>Install <strong>Sphinx</strong> using <strong>pip</strong>:</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>pip install Sphinx</p>
+</div>
+<ol class="arabic" start="2">
+<li><p>Make sure you have <strong>python</strong> version 3x or 2x installed.</p></li>
+<li><p>install <strong>sphinx_rtd_theme</strong> using <strong>pip</strong>:</p>
+<p>this is a global css template for Read the doc. In my case the I had to import in <strong>conf.py</strong> but usually it is the default template used once you build your document.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>pip install sphinx_rtd_theme</p>
+</div>
 </div>
 <div class="section" id="continuous-documentation">
 <h2>Continuous_Documentation<a class="headerlink" href="#continuous-documentation" title="Permalink to this headline">¶</a></h2>
+<p>We build and generate documentation in our case when a commit is done on the default branch <strong>master</strong></p>
 </div>
 <div class="section" id="revisions-management">
 <h2>Revisions_Management<a class="headerlink" href="#revisions-management" title="Permalink to this headline">¶</a></h2>
+<p><strong>ReadTheDoc</strong> affects a revision named <em>latest</em> when you import a GIT repository, But You can create another revision by adding a tag on your commit.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>ReadTheDoc supports only tags with 3 digits like: 1.2.0</p>
+</div>
 </div>
 </div>
 
