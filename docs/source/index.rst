@@ -35,9 +35,14 @@ You can use several types of lists in your documents.
 
 
 
-More Links
-==========
+Requirements
+============
 
-* :ref:`Requirements`
-* :ref:`Continuous_Documentation`
-* :ref:`Revisions_Management`
+
+Continuous_Documentation
+========================
+
+
+
+Revisions_Management
+====================
