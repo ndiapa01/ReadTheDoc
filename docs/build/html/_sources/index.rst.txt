@@ -38,6 +38,6 @@ You can use several types of lists in your documents.
 More Links
 ==========
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`Requirements`
+* :ref:`Continuous_Documentation`
+* :ref:`Revisions_Management`

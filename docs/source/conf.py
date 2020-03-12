@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'TestSphinx'
-copyright = '2020, pape ilo Somfy Group'
+copyright = '2020, Ndiaye pape ilo, Somfy Group'
 author = 'pape ilo'
 
 # The full version, including alpha/beta/rc tags
@@ -46,6 +46,15 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 
+# define the main page name here
+master_doc = 'index'
+
+# define here html pages that you want to generate when builing the document
+man_pages = [
+    (master_doc,'Requirements','Continuous_Documentation','Revisions_Management',[author],1)
+]
+# add a logo to your document
+html_logo = '_static/images/SomfyH&B.png'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
@@ -59,6 +68,6 @@ html_static_path = ['_static']
 # use recommonmark for extensions
 extensions = ['recommonmark']
 
-master_doc = 'index'
+
 
 html_theme = "sphinx_rtd_theme"
