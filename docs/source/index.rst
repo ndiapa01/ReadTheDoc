@@ -20,9 +20,9 @@ Usefull Parameters
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   
+
 * Warnings
-.. warning:: 
+.. warning::
    use parameter ".. warning:: " to create a warning like this.
    
 
