@@ -3,15 +3,15 @@ Using Sphinx
 ============
 
 This document is a small test and also a little tutorial 
-that can help you generate beatifull documents
+that can help you easily generate beatifull documents
 using some parameters shown bellow.  
-
 
    
 Presentation
 ============
 learn using sphinx to simply generate documentation can save you a lot of time 
 and you'll find in this page command line that I used to make it looks like this.
+Sphinx use a syntax type called *RetructuredText*. `Here <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ you can learn more about this syntax. 
 
 Usefull Parameters
 =====================
@@ -65,4 +65,4 @@ Revisions_Management
 **ReadTheDocs** affects a revision named *latest* when you import a GIT repository, But You can create another revision by adding a tag on your commit.
 
 .. important::
-   ReadTheDocs supports only tags with 3 digits like: v1.2.0
+   **ReadTheDocs** does not automatically display tags when generating the document, you might have to select tags to activate from the section **Version** and choose **Public** as *Confidentiality level*.
